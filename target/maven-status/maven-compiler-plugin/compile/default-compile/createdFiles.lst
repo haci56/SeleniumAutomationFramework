@@ -1,0 +1,5 @@
+Utils\CommonFunctions.class
+Factory\DriverFactory.class
+Pages\GooglePage.class
+Utils\ConfigReader.class
+Pages\SearchPage.class

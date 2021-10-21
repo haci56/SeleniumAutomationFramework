@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="38164" started-at="2021-10-21T10:53:45Z" finished-at="2021-10-21T10:54:23Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRunner@feb3fa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="38164" started-at="2021-10-21T10:53:45Z" finished-at="2021-10-21T10:54:23Z">
+      <class name="Parallel.ParallelRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Parallel.ParallelRunner@feb3fa]" name="setUpClass" is-config="true" duration-ms="994" started-at="2021-10-21T10:53:45Z" finished-at="2021-10-21T10:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRunner@feb3fa]" name="runScenario" duration-ms="32934" started-at="2021-10-21T10:53:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T10:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2 - Search test 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRunner@feb3fa]" name="runScenario" duration-ms="29207" started-at="2021-10-21T10:53:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T10:54:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["google Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Google]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRunner@feb3fa]" name="runScenario" duration-ms="28387" started-at="2021-10-21T10:53:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T10:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["google Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Google]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRunner@feb3fa]" name="runScenario" duration-ms="28653" started-at="2021-10-21T10:53:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T10:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1 - Search test 1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Parallel.ParallelRunner@feb3fa]" name="tearDownClass" is-config="true" duration-ms="4219" started-at="2021-10-21T10:54:19Z" finished-at="2021-10-21T10:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Parallel.ParallelRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
